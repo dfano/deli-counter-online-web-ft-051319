@@ -6,6 +6,6 @@ def line(arr)
 		arr.each_with_index.map do |name, index|
 			new_list << " #{index+1}. #{name.capitalize}"
 		end
-		new_list.join
+		puts new_list.join
 	end
 end
