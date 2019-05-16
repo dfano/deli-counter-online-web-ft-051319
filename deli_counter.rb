@@ -9,3 +9,8 @@ def line(arr)
 		puts new_list.join
 	end
 end
+
+def take_a_number(arr, name)
+	arr << name
+	puts "Welcome, #{name.capitalize}. You are number #{arr.length} in line"
+end
